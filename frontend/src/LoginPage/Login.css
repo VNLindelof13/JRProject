@@ -1,10 +1,21 @@
 .Login {
-  background-image: url("../../public/LoginPage/LoginPage_Background.png");
+  background-image: url("Components/LoginPage_Background.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   padding: 10px;
 }
 
-.InitialGrid {
+.TopGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.BottomGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+img {
+  justify-self: center;
 }
