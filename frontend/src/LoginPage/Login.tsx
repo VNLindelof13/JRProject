@@ -14,7 +14,7 @@ function Login() {
         <img src={SaoFrancisco} alt='Sao Francisco' />
       </div>
       <div>
-        <TextFieldWithLogo name='joao'></TextFieldWithLogo>
+        <TextFieldWithLogo name='Rui'></TextFieldWithLogo>
       </div>
       <div className='BottomGrid'>
         <img src={Londres} alt='Londres' />
