@@ -19,6 +19,9 @@ function Login() {
         <TextFieldWithLogo logo={userLogo} type={1}></TextFieldWithLogo>
         <TextFieldWithLogo logo={userLock} type={2}></TextFieldWithLogo>
       </div>
+      <div className='ButtonDiv'>
+        <TextFieldWithLogo logo={userLock} type={2}></TextFieldWithLogo>
+      </div>
       <div className='BottomGrid'>
         <img src={Londres} alt='Londres' />
         <img src={Amesterdao} alt='Amesterdão' />

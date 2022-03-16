@@ -7,12 +7,7 @@
 }
 
 .TopGrid {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.BottomGrid {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -20,6 +15,16 @@
 .InputDiv {
   display: flex;
   justify-content: center;
+}
+
+.ButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.BottomGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 img {
