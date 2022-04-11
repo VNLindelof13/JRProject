@@ -4,17 +4,15 @@ import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div class="container">
-		<div class="image">
-			
-		</div>
-		<div class="columns-3">
-				<img src="images/Lisboa.svg" alt="Lisboa"></img>
-				<img src="images/SaoFrancisco.svg" alt="São Francisco"></img>
-			<div>
-				<img src="images/Londres.svg" alt="Londres"></img>
-			</div>
-		</div>
+    <div class="justify-self-center">
+      <div class="mb-10 text-center"><img src="images/Seta.svg"></img></div>
+		<div class="grid grid-cols-3 gap-10 ml-52 mr-52 mb-32">
+      <div class="h-full"><img src="images/Lisboa.svg"></img></div>
+      <div class="h-full"><img src="images/Londres.svg"></img></div>
+      <div class="h-full"><img src="images/SaoFrancisco.svg"></img></div>
+    </div>
+
+    <div class="text-center"><a><button>ENTRAR</button></a></div>
     </div>
   </React.StrictMode>,
   document.getElementById("root")
