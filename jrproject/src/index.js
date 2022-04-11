@@ -8,8 +8,12 @@ ReactDOM.render(
 		<div class="image">
 			
 		</div>
-		<div>
-			
+		<div class="columns-3">
+				<img src="images/Lisboa.svg" alt="Lisboa"></img>
+				<img src="images/SaoFrancisco.svg" alt="São Francisco"></img>
+			<div>
+				<img src="images/Londres.svg" alt="Londres"></img>
+			</div>
 		</div>
     </div>
   </React.StrictMode>,
