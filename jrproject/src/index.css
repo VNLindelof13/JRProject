@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body{
-    background-image: url("../public/images/bg.png");
-    background-size: auto;
+    background-image: url("../public/images/veloso.jpg");
+    background-repeat: repeat;
+    background-size: 200px;
 }
